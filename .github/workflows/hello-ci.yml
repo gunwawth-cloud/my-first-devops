@@ -2,9 +2,11 @@ name: My First CI Robot
 
 # กำหนดให้ระบบทำงานทุกครั้งที่มีการอัปเดตโค้ด (push) เข้าสู่คลาวด์
 on: [push]
+
 jobs:
  say-hello:
   runs-on: ubuntu-latest # สั่งเปิดเซิร์ฟเวอร์จำลองเพื่อรันคำสั่ง
+  
   
   steps:
    - name: Run a greeting message
