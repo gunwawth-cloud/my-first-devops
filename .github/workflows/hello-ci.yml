@@ -4,10 +4,10 @@ name: My First CI Robot
 on: [push]
 
 jobs:
- say-hello:
-  runs-on: ubuntu-latest # สั่งเปิดเซิร์ฟเวอร์จำลองเพื่อรันคำสั่ง
+  say-hello:
+   runs-on: ubuntu-latest # สั่งเปิดเซิร์ฟเวอร์จำลองเพื่อรันคำสั่ง
   
   
-  steps:
-   - name: Run a greeting message
-     run: echo &quot;Hello DevOps! ระบบ CI เริ่มทำงานเรียบร้อยแล้ว&quot;
+   steps:
+     - name: Run a greeting message
+       run: echo &quot;Hello DevOps! ระบบ CI เริ่มทำงานเรียบร้อยแล้ว&quot;
